@@ -8,3 +8,11 @@
     filter: brightness(60%);
     box-shadow: inset 0 0 5000px black;
 }
+
+/* Estilo del contenedor de las tarjetas de producto*/
+.cards-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
